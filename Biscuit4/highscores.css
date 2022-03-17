@@ -1,0 +1,24 @@
+.main {
+    background-color:#C4D7F2
+}
+
+.highscorebg {
+    color: white;
+}
+
+#highScoresList {
+    list-style: none;
+    margin-bottom: 4rem;
+    font-family: 'Amatic SC', cursive;
+}
+
+.high-score {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+#finalscore {
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    color:#776871;
+}

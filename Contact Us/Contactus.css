@@ -1,0 +1,307 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* { 
+margin: 0;
+padding: 0;
+outline: none;
+    }
+ 
+    nav {
+        background-color: #C4D7F2;
+    }
+    
+    .nav-links li, a {
+        background-color:#C4D7F2;
+        color:#776871;
+        font-family: 'Amatic SC', cursive;
+        font-size: 35px;
+        list-style: none;
+        padding:0px 10px;
+
+    }
+    .logo{
+        cursor: pointer;
+        width:215px;
+    }
+    .nav-links li a {
+        transition:all 0.3s ease 0s
+    }
+    .nav-links li a:hover {
+        color:#91a8a4;
+    }
+   
+    .button-nav{
+        cursor:pointer;
+        padding:9px 25px;
+        transition: all 0.3s ease 0s;
+        border:none;
+        font-family: 'Amatic SC', cursive;
+        font-size: 35px;
+        color:#776871;
+        background-color: white;
+        border-radius: 50px;
+    }
+
+    .cookie {background-color: transparent;}
+    
+    button:hover {color:#91a8a4;
+        transform: translateY(-10px);}
+
+    .nav-links {
+        display: inline;
+        padding: 0px 12px;
+        
+    }
+    header {
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+
+
+    }
+h1 { 
+     color:#776871;
+     text-align: center;
+     font-family: 'Amatic SC', cursive;
+     font-size: 45px;
+     margin:15px;
+}
+
+
+footer {
+    background-color:#C4D7F2;
+    color:#776871;
+    font-size: 22px;
+    font-family: 'Amatic SC', cursive;
+    text-align:center;
+    margin-top: 15px;
+}
+
+.contact-button {
+    cursor:pointer;
+    padding:9px 25px;
+    transition: all 0.3s ease 0s;
+    border:none;
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    color:#776871;
+    background-color: #ffc8dd;
+    border-radius: 50px;
+}
+
+/*-------------------Form-------------------*/
+
+.form-container { 
+    background-color:#C4D7F2;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vn;
+}
+
+.form-contents {
+    background: linear-gradient(90deg, rgba(90,232,251,1) 0%, rgba(196,215,242,1) 45%, rgba(242,126,168,1) 100%);
+    width: 600px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 50px 35px 10px 35px;
+}
+
+.form-contents header{
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0 0 30px 0;
+}
+
+.form-contents .form-outer{
+    width: 100%;
+    overflow: hidden;  
+}
+
+/* This puts the items next to each other rather than on top */
+
+ .form-outer form {
+    display: flex;
+    width: 400%;
+}
+
+.form-outer form .page {
+    width: 25%;
+    transition: margin-left 0.3s ease-in-out;
+}
+
+.form-outer form .page .title {
+    text-align: left;
+    font-size: 25px;
+    font-weight: 500;
+}
+.form-outer form .page .field {
+    height: 45px;
+    align-items: center;
+    margin: 45px 0;
+    position: relative;
+}
+
+/* Keeps the input boxes away from each other and not running over one another */
+.form-outer form .page .field label {
+    position: absolute;
+    top: -30px;
+    font-weight: 500; 
+}
+
+/* Formatted input boxes to match website style */
+
+.form-outer form .page .field input {
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightpink;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+form .page .field-select select {
+    width: 100%;
+    padding-left: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* Formatting to make the button pretty */
+
+.form-outer form .page .field .form-button {
+    width: 100%;
+    height: calc(100% + 5px);
+    margin-top: 10px;
+    border: none;
+    background: #f27ea8;
+    border-radius: 5px;
+    color: azure;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.form-outer form .page .field .form-button:hover {
+    background: #000;
+}
+
+.form-outer form .page .btns .form-button { 
+    margin-top: -20px !important;
+}
+
+ form .page .btns .form-button .prev {
+    margin-right: 3px;
+    font-size: 17px;  
+}
+
+form .page .btns .form-button .next {
+    margin-left: 3px;
+    font-size: 17px;
+}
+
+.form-contents .progress-bar {
+    display: flex;
+    flex-direction: row;
+    margin: 40px 0;
+    background: none;
+}
+
+.form-contents .progress-bar .step {
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+.form-contents .progress-bar .step .p-form {
+    font-size:  18px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 8px;
+    transition: 0.2s;
+}
+
+.form-contents .progress-bar .step .p-form.active{
+    color: #f27ea8;
+}
+
+.form-contents .progress-bar .step .bullet {
+    position: relative;
+    height: 25px;
+    width: 25px;
+    border: 2px solid #000;
+    color: #000;
+    display: inline-block;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+.form-contents .progress-bar .step .bullet.active {
+    border-color: #f27ea8;
+    background:  #f27ea8;
+}
+
+/* To remove last line after numbr 3 */
+.form-contents .progress-bar .step:last-child .bullet::before,
+.form-contents .progress-bar .step:last-child .bullet::after {
+    display: none;
+}
+
+.form-contents .progress-bar .step .bullet::before,
+.form-contents .progress-bar .step .bullet::after{
+    position: absolute;
+    content: "";
+    bottom: 11px;
+    right: -150px;
+    height: 3px;
+    width: 140px;
+    background: #262626;
+}
+
+.form-contents .progress-bar .step .bullet.active::after{ 
+    background: #f27ea8;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 0.3s linear forwards;
+}
+
+@keyframes animate {
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+.form-contents .progress-bar .step .bullet span {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.form-contents .progress-bar .step .bullet.active span{
+    display: none;
+}
+
+.form-contents .progress-bar .step .check {
+    position: absolute;
+    color: #000;
+    left: 50%;
+    top: 70%;
+    font-size: 15px;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.form-contents .progress-bar .step .check.active{
+    display: block;
+    color: #000;
+}
+/*-------------------Form-------------------*/

@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+/* CSS START */
+
+* {box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+    
+    nav {
+        background-color: #C4D7F2;
+    }
+
+    .nav-links  {
+        color:#776871;
+        font-family: 'Amatic SC', cursive;
+        font-size: 35px;
+        list-style: none;
+        padding:0px 10px;
+    }
+
+    .logo{
+        cursor: pointer;
+    }
+    .nav-links li .a-nav {
+        transition:all 0.3s ease 0s
+    }
+    .nav-links li .a-nav:hover {
+        color:#91a8a4;
+    }
+   
+    .button-nav{
+        cursor:pointer;
+        padding:9px 25px;
+        transition: all 0.3s ease 0s;
+        border:none;
+        font-family: 'Amatic SC', cursive;
+        font-size: 35px;
+        color:#776871;
+        background-color: white;
+        border-radius: 50px;
+    }
+
+    .cookie {background-color: transparent;}
+
+    button:hover {color:#91a8a4;
+        transform: translateY(-10px);}
+
+    .nav-links {
+        display: inline;
+        padding: 0px 12px;
+        
+    }
+    header {
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+    }
+
+   .biscuit-text {
+     color:#776871;
+     font-family: 'Josefin Slab', serif;
+     font-size: 70px;
+     text-align:center; 
+     padding:10px 100px 20px 40px;
+     width:750px;
+     margin:40px;
+     float: left;
+}
+
+
+/* Game */
+
+.biscuit-quiz {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(245deg, rgba(90,232,251,1) 0%, rgba(124,185,212,1) 45%, rgba(11,101,195,1) 100%);
+    font-family: 'Amatic SC', cursive;
+}
+
+.h1-quiz {
+    font-size: 7rem;
+    color:#776871;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.h2-quiz {
+    font-size: 4rem;
+    margin-bottom: 4rem;
+}
+
+
+
+.quiz-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.choice-container {
+    display: flex ;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    height:100px;
+    border-radius: 4px;
+    background: linear-gradient(90deg, rgb(255,102,178) 0%, rgb(255, 102, 255) 100%);
+    font-size: 2rem;
+    min-width: 80rem;
+
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(255,102,178, 0.6);
+    transition: transform 100ms;
+    transform: scale(1.03);
+}
+
+.choice-prefix {
+    padding: 2rem 2.5rem;
+}
+
+.choice-text {
+    padding: 2rem;
+    width: 100%;
+    color:#ffffff;
+}
+
+.correct {
+    background: linear-gradient(32deg, rgba(11, 223, 36) 0%, rgb(41, 232, 111) 100%);
+}
+
+.incorrect {
+    background: linear-gradient(32deg, rgba(230 ,29, 29) 0%, rgb(224, 11, 11) 100%);
+}
+
+/* Heads Up Display */
+
+.h1-question {
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+#score {color:#ffffff;}
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+    color:#ffffff;
+}
+
+.hud-main-text {
+    text-align: center;
+}
+
+#progressBar {
+    width: 25rem;
+    height: 2rem;
+    border: 0.4rem solid rgb(255,102,178);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+#progressBarFull {
+    height: 100%;
+    background: rgb(255,102,178);
+    width: 0%;
+}
+
+/* Heads up Display */
+
+@media screen and (max-width: 768px) {
+    .choice-container {
+        min-width: 40rem;
+    }
+}
+
+/* Makes the cookie and crown icon bigger */
+.fa-crown {
+    font-size: 2.5rem;
+    margin-left: 1rem;
+}
+
+.fa-cookie-bite {
+    font-size: 2.5rem;
+    margin-left: 1rem;
+}
+
+/* Quiz */
+
+/* Footer */
+    .contact-button {
+        cursor:pointer;
+        padding:9px 25px;
+        transition: all 0.3s ease 0s;
+        border:none;
+        font-family: 'Amatic SC', cursive;
+        font-size: 35px;
+        color:#776871;
+        background-color: #ffc8dd;
+        border-radius: 50px;
+    }
+    
+    .footer {color:#776871;
+        font-size: 22px;
+        font-family: 'Amatic SC', cursive;
+        bottom:0;
+        padding:35px;
+        margin:0px 0px 0px 0px;
+    }
+    footer {background-color: #C4D7F2;}
+/* Footer */

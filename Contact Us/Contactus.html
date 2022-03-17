@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Contact us</title>
+
+<!-- This adds the little favicon to the tab bar -->
+  <link rel="shortcut icon" href="../Images/Logo.png"
+  <meta name="description" content="width=device-width, initial-scale=1"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="../Contact Us/Contactus.css">
+
+  <!-- External Styling cdn links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Josefin+Slab:wght@100&display=swap" rel="stylesheet"/>
+  
+  <!-- Bootstrap & Font Awesome connection -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+<header>      
+<!-- Navigation Bar-->
+<nav class="navbar justify-content-center ">
+  <ul class="nav-links">
+    <a href="../index.html"><img class="logo" src="../Images/Biscuits-logo.png" alt="Biscuit Logo"></a>
+        <a href="../Biscuit1/Biscuit1.html"><button class="button-nav">Danielle's Biscuit <img class ="cookie" src="../Images/Logo.png"></button></a>
+        <a href="../Biscuit2/Biscuit2.HTML"><button class="button-nav">Ande's Biscuit <img class ="cookie" src="../Images/Logo.png"></button></a>
+        <a href="../Biscuit3/Biscuit3.html"><button class="button-nav">Mariam's Biscuit <img class ="cookie" src="../Images/Logo.png"></button></a>
+        <a href="../Biscuit4/Biscuit4.html"><button class="button-nav">Biscuit Quiz<img class ="cookie" src="../Images/Logo.png"></button></a>
+        <a href="../MeettheTeam/meettheteam.html"><button class="button-nav">Who are we?<img class ="cookie" src="../Images/Logo.png"></button></a>
+  </ul>
+</nav>
+<!-- Navigation Bar-->
+</header>
+
+<main class="main-form">
+
+  <!-- FORM BEGIN: (Followed and credits to https://www.youtube.com/watch?v=FKIafz8qgpk) 
+  PLEASE NOTE: Don't tamper with the divs as it'll impact the flexboxes-->
+<div class="form-container">
+  <div class="form-contents">
+        <header class="header-form"> Send us your suggestions!</header>
+
+      <!-- PROGRESS BAR OF FORM -->
+      <div class="progress-bar">
+          <div class="step">
+            <p class="p-form">Name</p>
+            <div class="bullet">
+              <span>1</span>
+            </div>
+            <div class="check fas fa-check"></div>
+          </div>
+          <div class="step">
+            <p class="p-form">Contact</p>
+            <div class="bullet">
+              <span>2</span>
+            </div>
+            <div class="check fas fa-check"></div>
+          </div>
+          <div class="step">
+            <p class="p-form">Comments</p>
+            <div class="bullet">
+              <span>3</span>
+            </div>
+            <div class="check fas fa-check"></div>
+          </div>
+      </div>
+      <!-- PROGRESS BAR OF FORM -->
+
+      <div class="form-outer">
+          <form action=#>
+                      <!-- First page -->
+                    <div class="page slidepage">
+                      <div class="title">Basic Information</div>
+                      <div class="field">
+                        <div class="label">First Name</div>
+                        <input type="text">
+                      </div>
+                      <div class="field">
+                        <div class="label">Last Name</div>
+                        <input type="text">
+                      </div>
+                      <div class="field nextBtn">
+                        <button class="form-button FirstNext next">Next</button>
+                      </div>
+                      </div>
+                      <!-- END OF FIRST PAGE -->
+
+                      <!-- Second page -->
+                    <div class="page">
+                      <div class="title">Contact Information</div>
+                      <div class="field">
+                        <div class="label">Email Address</div>
+                        <input type="text">
+                      </div>
+                      <div class="field">
+                        <div class="label">Phone Number</div>
+                        <input type="number">
+                      </div>
+                      <div class="field btns">
+                        <button class="form-button prev-1 prev">Previous</button>
+                        <hr class="mb-1">
+                        <button class="form-button next-1 next">Next</button>
+                      </div>
+                      </div>
+                      <!-- END OF SECOND PAGE -->
+
+                    <!-- Third page -->
+                    <div class="page">
+                      <div class="title">Your feedback</div>
+                      <div class="field">
+                        <div class="label">Comments</div>
+                        <input type="text" id="comments-input">
+                      </div>
+                      <div class="field-select">
+                        <div class="label">How was your biscuits experience?</div>
+                        <select>
+                          <option >Very Good</option>
+                          <option > Good</option>
+                          <option >Neutral</option>
+                          <option >Bad</option>
+                          <option >Very Bad</option>
+                        </select>
+                      </div>
+                      <div class="field btns">
+                        <button class="form-button prev-2 prev">Previous</button>
+                        <hr class="mb-1">
+                        <button class="form-button submit">Submit</button>
+                        
+                        </div>
+                      </div>
+                      <!-- END OF THIRD PAGE -->
+        </form>
+      </div>
+  </div>
+</div>
+
+<!-- LINK TO JS FOLDER -->
+<script src="../Contact Us/Contactus.js"></script>
+
+<!-- FORM ENDS -->
+</main>
+<!-- Footer START -->
+  <footer class="footer text-center text-lg-start text-muted">
+     <!-- Section: Social media -->
+  <section
+  class="footer d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+  <!-- Left -->
+  <div class="me-5 d-none d-lg-block">
+    <span>Get connected with us on social networks:</span>
+  </div>
+
+  <div>
+    <a href="../Contact Us/Contactus.html"><button class="contact-button">Got feedback? Send some our way!</button></a>
+  </div>
+  <!-- Left -->
+
+  <!-- Right -->
+  <div>
+    <a href="" class="me-4 text-reset">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="" class="me-4 text-reset">
+      <i class="fab fa-twitter"></i>
+    </a>
+    <a href="" class="me-4 text-reset">
+      <i class="fab fa-google"></i>
+    </a>
+    <a href="" class="me-4 text-reset">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="" class="me-4 text-reset">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="" class="me-4 text-reset">
+      <i class="fab fa-github"></i>
+    </a>
+  </div>
+  <!-- Right -->
+</section>
+<!-- Section: Social media -->
+
+ <!-- Section: Links  -->
+ <section class="footer">
+  <div class="container text-center text-md-start mt-5">
+    <!-- Grid row -->
+    <div class="row mt-3">
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+        <!-- Content -->
+        <h2 class="text-uppercase fw-bold mb-4">
+          Biscuits<i class="fas fa-cookie-bite"></i>
+        </h2>
+        <p>
+          Biscuits is a group of 3 creative individuals
+          sharing their love for biscuits with the world!
+        </p>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+        <!-- Links -->
+        <h2 class="text-uppercase fw-bold mb-4">
+          Contact
+        </h2>
+        <p><i class="fas fa-home me-3"></i> London, UK, L1 CGF4</p>
+        <p>
+          <i class="fas fa-envelope me-3"></i>
+          info@biscuitcollective.com
+        </p>
+        <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+        <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+      </div>
+      
+      <!-- Grid column -->
+    </div>
+    <!-- Grid row -->
+  </div>
+</section>
+<!-- Section: Links  -->
+
+<!-- Copyright -->
+<div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+  © Eating Biscuits since 2022:
+  <a class="text-reset fw-bold" href="#top" style="background-color:rgba(0, 0, 0, 0.05); font-size: 25px;">Back to the top <img src="../Images/Logo.png" alt="Biscuit Logo" style="background-color: rgba(0, 0, 0, 0.01);"></a></a>
+</div>
+<!-- Copright END -->
+
+<!-- I've rearranged how you've done the end of the containers as the body as 
+  the CGF notes show main, footer then body. If you've intentionally done
+  it this way though, please feel free to rearrange it back :) -->
+
+</footer>
+<!-- FOOTER END -->
+</body>
+</html>

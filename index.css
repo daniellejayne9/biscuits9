@@ -1,0 +1,116 @@
+  * {box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+#website-title {
+        color: #000;
+    }
+
+.navbar {
+    background-color:#C4D7F2
+}
+.nav-links li, a {
+        color:#776871;
+        font-family: 'Amatic SC', cursive;
+        font-size: 35px;
+        list-style: none;
+        padding:0px 10px;
+    }
+
+.logo{
+        cursor: pointer;
+        width: 215px;
+    }
+
+.nav-links li a {
+        transition:all 0.3s ease 0s
+    }
+
+.nav-links li a:hover {
+        color:#91a8a4;
+    }
+
+.button-nav{
+        cursor:pointer;
+        padding:9px 25px;
+        transition: all 0.3s ease 0s;
+        border:none;
+        font-family: 'Amatic SC', cursive;
+        font-size: 35px;
+        color:#776871;
+        background-color: white;
+        border-radius: 50px;
+    }
+
+.cookie {background-color: transparent;}
+
+.main {
+    background-color:#C4D7F2
+}
+
+button:hover {color:#91a8a4;
+        transform: translateY(-10px);
+    }
+
+.nav-links {
+        display: inline;
+        padding: 0px 5px;   
+    }
+
+header {
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+    }
+
+.box {
+    color:#776871;
+    font-family: 'Josefin Slab', serif;
+    font-size: 70px;
+    text-align: center;
+}
+
+/* The CSS here applies opacity to the jumbotron background without impacting the jumbotron text opacity. */
+.jumbotron-container { 
+    background-image: url('https://i.imgur.com/bsnrBem.png');
+    height: 600px;
+    padding: 1rem;
+    }
+
+#jumbotron-background {
+    background-color: rgba(255,175,204,0.5)
+}
+
+.jumbo-text {
+    color: rgba(0,0,0,1)
+}
+/* End of jumbotron CSS */
+
+.footer {
+    color:#776871;
+    background-color:#C4D7F2;
+    font-size: 22px;
+    font-family: 'Amatic SC', cursive;
+}
+
+.contact-button {
+    cursor:pointer;
+    padding:9px 25px;
+    transition: all 0.3s ease 0s;
+    border:none;
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    color:#776871;
+    background-color: #ffc8dd;
+    border-radius: 50px;
+}
+  .container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+  }
+
+
+  
+  

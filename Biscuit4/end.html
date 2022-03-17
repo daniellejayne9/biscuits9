@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- GAME PAGE -->
+<html>
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Well done!</title>
+
+      <!-- This adds the little favicon to the tab bar -->
+      <link rel="shortcut icon" href="../Images/Logo.png"
+      <meta name="description" content="width=device-width, initial-scale=1"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" href="./Biscuit4.css"/>
+
+    <!-- External Styling cdn Links -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Josefin+Slab:wght@500&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap & Font Awesome connection -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<header>
+    <!-- Navigation Bar-->
+    <nav class="navbar justify-content-center ">
+      <ul class="nav-links">
+        <a href="../index.html"><img class="logo" src="../Images/Biscuits-logo.png" alt="Biscuit Logo"></a>
+        <a href="../Biscuit1/Biscuit1.html"><button class="button-nav">Danielle's Biscuit <img class ="cookie" src="../Images/Logo.png"></button></a>
+        <a href="../Biscuit2/Biscuit2.HTML"><button class="button-nav">Ande's Biscuit <img class ="cookie" src="../Images/Logo.png"></button></a>
+        <a href="../Biscuit3/Biscuit3.html"><button class="button-nav">Mariam's Biscuit <img class ="cookie" src="../Images/Logo.png"></button></a>
+        <a href="../Biscuit4/Biscuit4.html"><button class="button-nav">Biscuit Quiz<img class ="cookie" src="../Images/Logo.png"></button></a>
+        <a href="../MeettheTeam/meettheteam.html"><button class="button-nav">Who are we?<img class ="cookie" src="../Images/Logo.png"></button></a>
+      </ul>
+    </nav>
+    <!-- Navigation Bar-->
+</header>
+        
+<main>
+<!-- END SCORE -->
+<div class="biscuit-quiz">
+    <div class="quiz-container">
+        <div id="end" class="flex-center flex-column">
+            <h1 id="finalScore">0</h1>
+            <form class="end-form-container">
+                <h2 id="end-text">Enter your name below to save your score!</h2>
+                <input type="text" name="name" id="username" placeholder="Enter your name.">
+                <a><button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)" disabled >Save</button></a>
+            </form>
+            <a href="./game.html" class="btn">Play Again</a>
+            <a href="../Biscuit4/highscores.html" class="btn">Leaderboard</a>
+        </div>
+    </div>
+</div>
+
+<!-- TO LINK TO THE JS FOR THE GAME TO WORK -->
+<script src="../Biscuit4/end.js"></script>
+
+
+<!-- END SCORE -->
+</main>
+
+<!-- Footer START -->
+<footer class="footer text-center text-lg-start text-muted">
+  <!-- Section: Social media -->
+<section
+class="footer d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+<!-- Left -->
+<div class="me-5 d-none d-lg-block">
+ <span>Get connected with us on social networks:</span>
+</div>
+
+<div>
+  <a href="../Contact Us/Contactus.html"><button class="contact-button">Got feedback? Send some our way!</button></a>
+</div>
+
+<!-- Left -->
+
+<!-- Right -->
+<div>
+ <a href="" class="me-4 text-reset">
+   <i class="fab fa-facebook-f"></i>
+ </a>
+ <a href="" class="me-4 text-reset">
+   <i class="fab fa-twitter"></i>
+ </a>
+ <a href="" class="me-4 text-reset">
+   <i class="fab fa-google"></i>
+ </a>
+ <a href="" class="me-4 text-reset">
+   <i class="fab fa-instagram"></i>
+ </a>
+ <a href="" class="me-4 text-reset">
+   <i class="fab fa-linkedin"></i>
+ </a>
+ <a href="" class="me-4 text-reset">
+   <i class="fab fa-github"></i>
+ </a>
+</div>
+<!-- Right -->
+</section>
+<!-- Section: Social media -->
+
+<!-- Section: Links  -->
+<section class="footer">
+<div class="container text-center text-md-start mt-5">
+ <!-- Grid row -->
+ <div class="row mt-3">
+   <!-- Grid column -->
+   <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+     <!-- Content -->
+     <h2 class="text-uppercase fw-bold mb-4">
+      Biscuits<i class="fas fa-cookie-bite"></i>
+     </h2>
+     <p>
+      Biscuits is a group of 3 creative individuals
+      sharing their love for biscuits with the world!
+     </p>
+   </div>
+   <!-- Grid column -->
+
+   <!-- Grid column -->
+   <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+     <!-- Links -->
+     <h2 class="text-uppercase fw-bold mb-4">
+       Contact
+     </h2>
+     <p><i class="fas fa-home me-3"></i> London, UK, L1 CGF4</p>
+     <p>
+       <i class="fas fa-envelope me-3"></i>
+       info@biscuitcollective.com
+     </p>
+     <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+     <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+   </div>
+   
+   <!-- Grid column -->
+ </div>
+ <!-- Grid row -->
+</div>
+</section>
+<!-- Section: Links  -->
+
+<!-- Copyright -->
+<div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+  © Eating Biscuits since 2022:
+  <a class="text-reset fw-bold" href="#top" style="background-color:rgba(0, 0, 0, 0.05); font-size: 25px;">Back to the top <img src="../Images/Logo.png" alt="Biscuit Logo" style="background-color: rgba(0, 0, 0, 0.01);"></a></a>
+</div>
+<!-- Copright END -->
+
+</footer>
+<!-- FOOTER END -->
+  </body>
+</html>
